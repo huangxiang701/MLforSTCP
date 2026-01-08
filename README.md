@@ -1,7 +1,7 @@
 # MLforSTCP
 Machine Learning workflow for accelerating the design of Synthesizable Thermally Conductive Polymers.
 ## Description
-Machine Learning framework for the generation of highly thermally conductive polymers using a rule-based polymer generator, involving four components: benchmark dataset, QSPR models, polymer generator, and virtual screening.![Framework](https://github.com/SJTU-MI/PMBO/blob/main/Framework.png)
+Machine Learning framework for the generation of highly thermally conductive polymers using a rule-based polymer generator, involving four components: benchmark dataset, quantitative structure-property relationships (QSPR) models, polymer generator, and virtual screening.![Framework](https://github.com/huangxiang701/MLforSTCP/blob/main/workflow.jpg)
 
 ## Installation
 ### Files loading and environment setup:
