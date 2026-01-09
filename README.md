@@ -26,17 +26,18 @@ pip install radonpy-pypi==0.2.9
 
 ## Try the desired parts of the project:
 ### Codes
-**01Cal_FF_descriptor.ipynb**: Calculation of kernel mean force field descriptors via RadonPy <br>
-**02_Rea_polymer.ipynb**: Virtual synthesis of polymers based on reaction rules using SMiPoly (polyolefins as an example) <br>
-**hypervolume.py**: Calculation of hypervolume <br>
-**utility.py**: Utility functions such as Pareto front allocation and data pre/post processing <br>
-**optimize.py**: Core of multi-objective Bayesian optimization <br>
-**log.py**: PMBO Logo <br>
+**01Cal_FF_descriptor.ipynb**: Calculation of kernel mean force field descriptors via RadonPy. <br>
+**02_Rea_polymer.ipynb**: Virtual synthesis of polymers based on reaction rules using SMiPoly (polyolefins as an example). <br>
+**03CNN.ipynb**: Convolutional neural network for mapping descriptors to thermal conductivity. <br>
+**04FFNN.ipynb**: Feedforward neural network for mapping descriptors to thermal conductivity. <br>
+**05Prediction.ipynb**: Applying the trained DNN models to predict the thermal conductivity of newly synthesized polymers (polyester as an example). <br>
+
 ### Datasets
-**MBO_tutorial.ipynb**: A case of multi-objective optimization for multifunctional polymers discovery <br>
-**example.csv**:Benchmark dataset for testing (input file) <br>
-**cal_data.csv**: MBO recommended polymers and their observed properties (output file) <br>
-**HV.csv**: Optimized convergence curve evaluated by hypervolume (output file) <br>
+**Benchmark**: The benchmark dataset serves for DNN models training. <br>
+**Reaction**: Virtual polymer collections generated based on reaction rules. <br>
+**ML_model**: Trained CNN and FFNN models. <br>
+**Prediction**: DNN prediction of thermal conductivity for six types of virtual synthetic polymers. <br>
+**Verification**: Molecular dynamics verification of thermal conductivity results for selected polymers. <br>
 
 ## Related projects
 **1. SMiPoly** (Generation of a Synthesizable Polymer Virtual Library Using Rule-Based Polymerization Reactions)
