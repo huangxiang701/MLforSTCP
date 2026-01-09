@@ -27,7 +27,7 @@ pip install radonpy-pypi==0.2.9
 ## Try the desired parts of the project:
 ### Codes
 **01Cal_FF_descriptor.ipynb**: Calculation of kernel mean force field descriptors via RadonPy. <br>
-**02_Rea_polymer.ipynb**: Virtual synthesis of polymers based on reaction rules using SMiPoly (polyolefins as an example). <br>
+**02Rea_polymer.ipynb**: Virtual synthesis of polymers based on reaction rules using SMiPoly (polyolefins as an example). <br>
 **03CNN.ipynb**: Convolutional neural network for mapping descriptors to thermal conductivity. <br>
 **04FFNN.ipynb**: Feedforward neural network for mapping descriptors to thermal conductivity. <br>
 **05Prediction.ipynb**: Applying the trained DNN models to predict the thermal conductivity of newly synthesized polymers (polyester as an example). <br>
