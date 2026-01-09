@@ -26,8 +26,8 @@ pip install radonpy-pypi==0.2.9
 
 ## Try the desired parts of the project:
 ### Codes
-**gp.py**: Gaussian process regression model <br>
-**Acq_fun.py**: Acquisition functions such as EI(expected improvement) and UCB(upper confidence bound) <br>
+**01Cal_FF_descriptor.ipynb**: Calculation of kernel mean force field descriptors via RadonPy <br>
+**02_Rea_polymer.ipynb**: Virtual synthesis of polymers based on reaction rules using SMiPoly (polyolefins as an example) <br>
 **hypervolume.py**: Calculation of hypervolume <br>
 **utility.py**: Utility functions such as Pareto front allocation and data pre/post processing <br>
 **optimize.py**: Core of multi-objective Bayesian optimization <br>
